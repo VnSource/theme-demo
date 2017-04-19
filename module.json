@@ -1,0 +1,24 @@
+{
+  "name": "vnsource/theme-demo",
+  "displayName": "Demo",
+  "type": "theme",
+  "description": "The demo theme for VnSource",
+  "homepage": "https://github.com/vnsource/theme-demo",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mr. VnS",
+      "email": "lienhe.vns@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "VnsThemes\\Demo\\": "/"
+    }
+  },
+  "providers": [
+    "VnsThemes\\Demo\\ModuleServiceProvider"
+  ]
+}
